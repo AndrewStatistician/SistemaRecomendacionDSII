@@ -1,0 +1,56 @@
+2025-02-26 15:30:40,945 - Inicio de orchestrator.py
+2025-02-26 15:30:40,947 - Ejecutando data_preprocess.py...
+2025-02-26 15:30:51,711 - Inicio de data_preprocess.py
+2025-02-26 15:30:52,713 - Uso de Memoria (RAM): 2.64 GB
+2025-02-26 15:30:52,713 - Uso de CPU: 1.3%
+2025-02-26 15:30:52,840 - Tiempo de carga de datos: 0.13 segundos
+2025-02-26 15:30:52,972 - Use pytorch device_name: cpu
+2025-02-26 15:30:52,972 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-26 15:31:19,367 - Tiempo de generación de embeddings (Productos): 23.92 segundos
+2025-02-26 15:31:19,368 - Dimensión de Embeddings de Productos: (2000, 384)
+2025-02-26 15:31:20,370 - Uso de Memoria (RAM): 2.78 GB
+2025-02-26 15:31:20,370 - Uso de CPU: 1.0%
+2025-02-26 15:45:01,710 - Tiempo de generación de embeddings (Interacciones): 821.34 segundos
+2025-02-26 15:45:01,711 - Dimensión de Embeddings de Interacciones: (50000, 384)
+2025-02-26 15:45:02,713 - Uso de Memoria (RAM): 3.59 GB
+2025-02-26 15:45:02,713 - Uso de CPU: 1.4%
+2025-02-26 15:45:02,714 - Duración total de data_preprocess.py: 850.00 segundos
+2025-02-26 15:45:02,714 - Fin de data_preprocess.py
+2025-02-26 15:45:04,444 - data_preprocess.py completado en 863.50 segundos.
+2025-02-26 15:45:04,446 - Ejecutando model.py...
+2025-02-26 15:45:09,484 - model.py completado en 5.04 segundos.
+2025-02-26 15:45:09,485 - Iniciando FastAPI con main.py...
+2025-02-26 15:45:11,357 - Duración total de orchestrator.py: 870.41 segundos
+2025-02-26 15:45:11,358 - Fin de orchestrator.py
+2025-02-26 15:55:41,819 - Inicio de data_preprocess.py
+2025-02-26 15:55:41,820 - Ruta de data_dir: /mnt/c/Users/amcastrol/OneDrive - Compensar/Prueba_DSII/versiones/2_5_code_8080_LOGS_TIME/data
+2025-02-26 15:55:42,210 - Use pytorch device_name: cpu
+2025-02-26 15:55:42,210 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-26 15:56:04,750 - Inicio de orchestrator.py
+2025-02-26 15:56:04,751 - Ejecutando data_preprocess.py...
+2025-02-26 15:56:09,601 - Inicio de data_preprocess.py
+2025-02-26 15:56:09,602 - Ruta de data_dir: /mnt/c/Users/amcastrol/OneDrive - Compensar/Prueba_DSII/versiones/2_5_code_8080_LOGS_TIME/data
+2025-02-26 15:56:09,872 - Use pytorch device_name: cpu
+2025-02-26 15:56:09,872 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-26 15:56:40,543 - Guardando product_embeddings en: /mnt/c/Users/amcastrol/OneDrive - Compensar/Prueba_DSII/versiones/2_5_code_8080_LOGS_TIME/data/product_embeddings.npy
+2025-02-26 15:56:40,580 - product_embeddings guardado con éxito.
+2025-02-26 16:11:51,771 - Guardando interaction_embeddings en: /mnt/c/Users/amcastrol/OneDrive - Compensar/Prueba_DSII/versiones/2_5_code_8080_LOGS_TIME/data/interaction_embeddings.npy
+2025-02-26 16:11:52,399 - interaction_embeddings guardado con éxito.
+2025-02-26 16:11:52,399 - Vectorización de productos e interacciones completada y guardada.
+2025-02-26 16:11:52,399 - Fin de data_preprocess.py
+2025-02-26 16:11:53,698 - data_preprocess.py completado en 948.95 segundos.
+2025-02-26 16:11:53,699 - Ejecutando model.py...
+2025-02-26 16:12:03,216 - model.py completado en 9.52 segundos.
+2025-02-26 16:12:03,217 - Iniciando FastAPI con main.py...
+2025-02-26 16:17:50,852 - Inicio de orchestrator.py
+2025-02-26 16:17:50,859 - Embeddings ya generados. Saltando data_preprocess.py...
+2025-02-26 16:17:50,861 - Matriz de similitudes colaborativas ya generada. Saltando model.py...
+2025-02-26 16:17:50,862 - Iniciando FastAPI con main.py...
+2025-02-26 16:18:15,492 - Inicio de orchestrator.py
+2025-02-26 16:18:15,495 - Embeddings ya generados. Saltando data_preprocess.py...
+2025-02-26 16:18:15,497 - Matriz de similitudes colaborativas ya generada. Saltando model.py...
+2025-02-26 16:18:15,497 - Iniciando FastAPI con main.py...
+2025-02-26 18:09:10,193 - Inicio de orchestrator.py
+2025-02-26 18:09:10,197 - Embeddings ya generados. Saltando data_preprocess.py...
+2025-02-26 18:09:10,199 - Matriz de similitudes colaborativas ya generada. Saltando model.py...
+2025-02-26 18:09:10,199 - Iniciando FastAPI con main.py...
